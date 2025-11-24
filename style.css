@@ -93,13 +93,13 @@ footer {
 /* BUG: Icons misaligned */
 .social-icons {
     display: flex;
-    flex-direction: column; /* Should be row */
+    flex-direction: row; /* Should be row */
     margin-top: 10px;
 }
 
 .social-icons a {
     color: white;
-    margin: 5px 0; /* Should be margin: 0 10px */
+    margin: 0 10px; /* Should be margin: 0 10px */
     text-decoration: none;
 }
 
